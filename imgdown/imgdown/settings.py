@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = "imgdown.spiders"
 #USER_AGENT = "imgdown (+http://www.yourdomain.com)"
 
 ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
-IMAGES_STORE = 'tiger_images'
+IMAGES_STORE = 'cow_images'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
